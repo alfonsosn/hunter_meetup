@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* every page */
+#screen{
+	position: absolute;
+	top: 0;
+	left: 30%;
+	width: 450px;
+	height: 600px;
+	padding-top: 80px;
+	border: solid;
+	font-family: verdana;
+	background-color: rgba(132, 132, 132, 0.3);
+	overflow: scroll;
+}

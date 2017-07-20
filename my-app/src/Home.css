@@ -1,0 +1,75 @@
+/*
+
+#footer{
+	border-top: 1px solid #b2b2b2;
+	height: 60px;
+	background-color: #f4f4f4;
+	color: #448CE5;
+	text-align: center;
+	font-size: 1.5em;
+	position: fixed;
+	width: 450px;
+	display: flex;
+	bottom: 116px;
+}*/
+
+/* http://fontawesome.io/icons/ */
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* pages for this */
+
+.card{
+	margin: 5px;
+	padding: 5px;
+	background: #fcfcfc;
+	border: 1px solid #e6e6e6 !important;
+	box-shadow: .2px .2px .2px lightgrey;
+	font-family: ;
+}
+
+.date {
+	font-size: 1.2em;
+	font-family: "Helvetica Neue-Light",
+		"Helvetica Neue Light", "Helvetica Neue",
+		Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+    color: #777777;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin: .3125rem .1875rem;
+}
+
+.hour {
+	font-weight: bolder;
+
+}
+
+.last {
+	margin-bottom: 65px;
+}
+
+.filter {
+    background: #448CE5;
+    border: 1px solid #448CE5;
+    color: #fff;
+    line-height: 2rem;
+    font-size: .8rem;
+    padding: 0 .5rem;
+    border-radius: .3rem;
+    margin: .1875rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.hide{
+	display:none;
+}
+
+.unselected-filter{
+	background-color: white;
+	color: #448CE5;
+}
