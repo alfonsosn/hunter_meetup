@@ -36,7 +36,11 @@ class Week extends Component {
           }
     		</div>
 
-        <Outline date="Monday"/>
+        <Outline date="Monday" events={events}/>
+        <Outline date="Tuesday" events={events}/>
+        <Outline date="Wednesday" events={events}/>
+        <Outline date="Thursday" events={events}/>
+        <Outline date="Friday" events={events}/>
 
 			</div>
     );
