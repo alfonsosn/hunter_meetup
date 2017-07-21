@@ -22,15 +22,6 @@ a {
 
 /* pages for this */
 
-.card{
-	margin: 5px;
-	padding: 5px;
-	background: #fcfcfc;
-	border: 1px solid #e6e6e6 !important;
-	box-shadow: .2px .2px .2px lightgrey;
-	font-family: ;
-}
-
 .date {
 	font-size: 1.2em;
 	font-family: "Helvetica Neue-Light",

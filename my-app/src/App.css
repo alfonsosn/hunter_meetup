@@ -17,3 +17,12 @@ body {
 	background-color: rgba(132, 132, 132, 0.3);
 	overflow: scroll;
 }
+
+.card{
+	margin: 5px;
+	padding: 5px;
+	background: #fcfcfc;
+	border: 1px solid #e6e6e6 !important;
+	box-shadow: .2px .2px .2px lightgrey;
+	font-family: ;
+}
