@@ -1,13 +1,13 @@
 import React from 'react';
 import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
-import Home from './Home';
+import Week from './Week';
 import Layout from './Layout';
 import './App.css';
 
 const Main = () => (
   <Switch>
-    <Route path="/" component={Home} />
+    <Route path="/" component={Week} />
   </Switch>
 );
 
