@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Event from './Event.js'
+import Event from '../dynamic/Event.js'
 
 class Week extends Component {
 

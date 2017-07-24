@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Outline from './Outline.js'
+import Outline from '../dynamic/Outline.js'
 import './Week.css';
 
 class Week extends Component {

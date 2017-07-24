@@ -1,9 +1,9 @@
 import React from 'react';
 import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
-import Layout from './Layout';
-import Week from './Week';
-import Day from './Day';
+import Layout from './views/Layout';
+import Week from './views/Week';
+import Day from './views/Day';
 import './App.css';
 
 const Main = () => (
