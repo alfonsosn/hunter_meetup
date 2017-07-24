@@ -5,7 +5,7 @@ class Outline extends Component {
   // parses all event and returns if equal to current Component's date
   _getEvents(eventsList, date) {
     return eventsList.map((event) => {
-      if (event.date == date){
+      if (event.date == date.split(" ")[0]){
       return (
           <li key={event.id} className={`group ` + event.category}><span className="hour"> {event.hour} </span> {event.title} </li>
       )}
