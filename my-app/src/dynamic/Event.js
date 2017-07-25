@@ -5,7 +5,7 @@ class Event extends Component {
   _getEvents(eventsList) {
     return eventsList.map((event) => {
       return (
-        <div className="card">
+        <div className="card" key={event.title}>
           <p className="date"> {event.title} </p>
           <p><span className="hour"> Hour: {event.hour} </span></p>
           <p>{event.description}</p>

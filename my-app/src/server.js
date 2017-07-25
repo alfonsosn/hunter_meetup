@@ -33,6 +33,21 @@ server
         <meta name="viewport" content="width=device-width, initial-scale=1">
         ${assets.client.css ? `<link rel="stylesheet" href="${assets.client.css}">` : ''}
         <script src="${assets.client.js}" defer></script>
+        <script src="https://www.gstatic.com/firebasejs/4.1.4/firebase.js"></script>
+
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyBJzi5_WOjjN9Soi622ybjoAk0zyxlD_XE",
+            authDomain: "hunter-meetup.firebaseapp.com",
+            databaseURL: "https://hunter-meetup.firebaseio.com",
+            projectId: "hunter-meetup",
+            storageBucket: "",
+            messagingSenderId: "508957175737"
+          };
+          firebase.initializeApp(config);
+        </script>
+        
     </head>
     <body>
         <div id="root">${markup}</div>

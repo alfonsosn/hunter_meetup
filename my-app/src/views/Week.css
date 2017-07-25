@@ -34,15 +34,6 @@ a {
     margin: .3125rem .1875rem;
 }
 
-.hour {
-	font-weight: bolder;
-
-}
-
-.last {
-	margin-bottom: 65px;
-}
-
 .filter {
     background: #448CE5;
     border: 1px solid #448CE5;
@@ -56,11 +47,11 @@ a {
     display: inline-block;
 }
 
-.hide{
-	display:none;
-}
-
 .unselected-filter{
 	background-color: white;
 	color: #448CE5;
+}
+
+.hide{
+	display:none;
 }

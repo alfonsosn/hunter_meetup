@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Link from 'react-router-dom/link';
 import './Layout.css';
 
 
@@ -8,7 +9,9 @@ class Layout extends Component {
     return (
       <div>
         <div id="nav">
-          <p> Hunter Calendar </p>
+          <Link to={`/`}>
+            <p> Hunter Calendar </p>
+          </Link>
         </div>
       </div>
     )
