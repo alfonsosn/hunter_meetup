@@ -7,7 +7,7 @@ class Outline extends Component {
     return eventsList.map((event) => {
       if (event.date == date.split(" ")[0]){
       return (
-          <li key={event.id} className={`group ` + event.category}><span className="hour"> {event.hour} </span> {event.title} </li>
+          <li key={event.id} className={`group ` + event.category}><span className="hour" key={event.id}> {event.hour} </span> {event.title} </li>
       )}
     })
   }
