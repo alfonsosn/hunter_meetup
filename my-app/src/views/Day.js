@@ -6,7 +6,6 @@ class Week extends Component {
   render() {
 
     const categories = ["Sports", "Student Life", "Academic", "Career"]
-    const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
     const events = [
       {date: "Monday", hour: "2:00pm", title: "Computer Science at Hunter", category: "Academic", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima itaque possimus, provident dolor magni similique dolorum.", key: 1},

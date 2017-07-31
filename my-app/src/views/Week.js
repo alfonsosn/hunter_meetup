@@ -10,6 +10,7 @@ class Week extends Component {
 
   render() {
     const day = new DateScheduler.DateScheduler;
+    
     const events = [
       {date: "Mon", hour: "2:00pm", title: "Computer Science at Hunter", category: "Academic", key: 19},
       {date: "Mon", hour: "3:00pm", title: "Unruly Visions: The Aesthetic Practices of Queer Diaspora", category: "Academic", key: 18},
