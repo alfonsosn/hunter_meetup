@@ -9,11 +9,12 @@ class Filters extends Component {
   }
 
   render(){
+    let i = 0;
     return(
       <div className="card">
       {
         this.state.categories.map( category =>
-          <span className="filter" >{category}</span>
+          <span className="filter" key={i++}>{category}</span>
         )
       }
       </div>
