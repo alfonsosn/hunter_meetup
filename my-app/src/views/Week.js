@@ -17,17 +17,17 @@ class Week extends Component {
   }
 
   componentDidMount(){
-    const rootRef = firebase.database().ref()
+    const eventsRef = firebase.database().ref()
 
-    rootRef.on('value', snap => {
+    eventsRef.on('value', snap => {
       this.setState({
         events: snap.val()
       })
     })
   }
 
-
   render() {
+    
     const day = new DateScheduler.DateScheduler;
 
     return (
